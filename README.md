@@ -92,7 +92,8 @@ module.exports = {
   authorUrl: 'https://www.timrodz.com',
   // Your social media presence, in the form of usernames.
   social: {
-    // tells the Instagram API the username to get posts from. If the url is `https://www.instagram.com/natgeotravel`, then your username is `natgeotravel`.
+    // tells the Instagram API the username to get posts from. 
+    // If the url is `https://www.instagram.com/natgeotravel`, your username is `natgeotravel`.
     instagram: 'natgeotravel', 
     // Optional
     twitter: '@NatGeoTravel',
