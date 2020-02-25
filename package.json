@@ -1,0 +1,68 @@
+{
+  "name": "gatsby-starter-instagram-baseweb",
+  "description": "A lightweight, minimalist Gatsby starter for creating Instagram-based portfolios",
+  "version": "0.1.0",
+  "author": {
+    "name": "Juan Alejandro Morais",
+    "email": "timrodz@icloud.com",
+    "url": "https://timrodz.com"
+  },
+  "dependencies": {
+    "baseui": "^9.50.0",
+    "gatsby": "^2.18.12",
+    "gatsby-cli": "^2.8.29",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-google-analytics": "^2.1.36",
+    "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-offline": "^3.0.27",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sharp": "^2.3.13",
+    "gatsby-plugin-styletron": "^4.1.24",
+    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-source-instagram": "^0.6.1",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "styletron-engine-atomic": "^1.4.4",
+    "styletron-react": "^5.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.4.0",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby starter",
+    "gatsby instagram",
+    "instagram",
+    "baseweb"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/timrodz/gatsby-starter-instagram-baseweb/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timrodz/gatsby-starter-instagram-baseweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timrodz/gatsby-starter-instagram-baseweb/issues",
+    "email": "timrodz@icloud.com"
+  }
+}
