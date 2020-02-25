@@ -12,6 +12,8 @@ const Image = styled(Img, {
   maxHeight: '25rem',
 });
 
+const nodeURL = 'https://www.instagram.com/p';
+
 const ImageGallery = () => {
   const {
     allInstaNode: { edges },
@@ -42,11 +44,15 @@ const ImageGallery = () => {
         caption,
         localFile: { childImageSharp },
       } = node;
-      const imageData = childImageSharp.fluid;
-
       return (
         <FlexGridItem key={id} flexGridItemIndex={id}>
-          <Image loading="lazy" alt={caption || ''} fluid={imageData} />
+          <a href={`${nodeURL}/${id}`}>
+            <Image
+              loading="lazy"
+              alt={caption || ''}
+              fluid={childImageSharp.fluid}
+            />
+          </a>
         </FlexGridItem>
       );
     });
@@ -56,6 +62,10 @@ const ImageGallery = () => {
 
   return (
     <FlexGrid
+      // Brackets specify the options for different breakpoints
+      // 1 column for small devices
+      // 2 columns for medium devices
+      // 3 columns for large devices
       flexGridColumnCount={[1, 2, 3]}
       flexGridColumnGap={['scale0', 'scale200']}
       flexGridRowGap={['scale0', 'scale200']}
