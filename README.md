@@ -17,7 +17,8 @@ A portfolio based on your latest Instagram posts, implemented with Uber's [Base 
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/timrodz/gatsby-starter-instagram-baseweb)
 
-<img alt="Desktop View" src="https://dev-to-uploads.s3.amazonaws.com/i/quxifu4n3h9qistw2tr9.jpg" width="1200" />
+<img alt="Desktop/Tablet/Phone View" src="https://i.imgur.com/mAi2AXB.jpg" width="1000" />
+<img alt="Desktop View" src="https://dev-to-uploads.s3.amazonaws.com/i/quxifu4n3h9qistw2tr9.jpg" width="1000" />
 
 ## 🎢 Features
 
