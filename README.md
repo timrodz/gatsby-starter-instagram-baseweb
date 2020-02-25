@@ -7,6 +7,8 @@
   Instagram & Base Web Gatsby Starter
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ab85d3c-47b7-45e1-91ff-497a211ba390/deploy-status)](https://app.netlify.com/sites/sharp-khorana-17ea22/deploys)
+
 A portfolio based on your latest Instagram posts, implemented with Uber's [Base Web](https://eng.uber.com/introducing-base-web/) design system. It features out-of-the-box responsive layouts, easy-to-implement components and CSS-in-JS styling.
 
 ## 💫 Deploy
@@ -15,6 +17,8 @@ A portfolio based on your latest Instagram posts, implemented with Uber's [Base 
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/timrodz/gatsby-starter-instagram-baseweb)
 
+<img alt="Desktop View" src="https://dev-to-uploads.s3.amazonaws.com/i/quxifu4n3h9qistw2tr9.jpg" width="1200" />
+
 ## 🎢 Features
 
 - Plug & Play configuration — All you need is an Instagram username!
@@ -22,6 +26,7 @@ A portfolio based on your latest Instagram posts, implemented with Uber's [Base 
 - Fully responsive design: Mobile, Tablet & Desktop supported.
 - Continuous deployment via [Netlify](https://www.netlify.com/) or [Zeit](https://zeit.co/).
 - Functional components so you can take advantage of [React Hooks](https://www.netlify.com/).
+- [Google Analytics](https://analytics.google.com/analytics/web/) ready!
 
 ### Libraries & Plugins
 
@@ -70,6 +75,7 @@ In order to start showing posts from the instagram profile of your choice, you m
 This is the main configuration file for your app. It's in charge of specifying the settings of `gatsby-config.js` (See in section below) as well as the **SEO** of your website.
 
 - **social.instagram**: tells the Instagram API the username to get posts from. If the url is `https://www.instagram.com/natgeotravel/`, the username will be `natgeotravel`.
+- **googleAnalyticsId**: If you don't know how to find your id, please see [this post](https://support.google.com/analytics/answer/1008080?hl=en).
 
 **Note**: If you change certain variables, you might have to restart your app by interrupting the process and re-running `gatsby develop`.
 
@@ -105,7 +111,7 @@ module.exports = {
     twitter: 'https://twitter.com/NatGeoTravel',
   },
   // If applicable, your Google Analytics crawl ID.
-  googleAnalyticsID: 'UA-XXXXXXXX-X',
+  googleAnalyticsId: 'UA-XXXXXXXX-X',
   // Colours that represent your website.
   themeColor: '#000',
   backgroundColor: '#fff',
