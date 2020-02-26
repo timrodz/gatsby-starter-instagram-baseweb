@@ -11,6 +11,8 @@
 
 A portfolio based on your latest Instagram posts, implemented with Uber's [Base Web](https://eng.uber.com/introducing-base-web/) design system. It features out-of-the-box responsive layouts, easy-to-implement components and CSS-in-JS styling.
 
+Check the Gatsby Starter [here](https://www.gatsbyjs.org/starters/timrodz/gatsby-starter-instagram-baseweb/).
+
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/timrodz/gatsby-starter-instagram-baseweb)
