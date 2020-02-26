@@ -7,7 +7,7 @@
   Instagram & Base Web Gatsby Starter
 </h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7ab85d3c-47b7-45e1-91ff-497a211ba390/deploy-status)](https://app.netlify.com/sites/sharp-khorana-17ea22/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ab85d3c-47b7-45e1-91ff-497a211ba390/deploy-status)](https://app.netlify.com/sites/gatsby-starter-instagram-baseweb/deploys)
 
 A portfolio based on your latest Instagram posts, implemented with Uber's [Base Web](https://eng.uber.com/introducing-base-web/) design system. It features out-of-the-box responsive layouts, easy-to-implement components and CSS-in-JS styling.
 
