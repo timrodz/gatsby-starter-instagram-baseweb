@@ -42,13 +42,14 @@ module.exports = {
         username: config.social.instagram,
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: config.googleAnalyticsId,
-        head: true,
-      },
-    },
+    // Optional: Google Analytics Tracking
+    // {
+    //   resolve: 'gatsby-plugin-google-analytics',
+    //   options: {
+    //     trackingId: config.googleAnalyticsId,
+    //     head: true,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-styletron`,
       options: {
