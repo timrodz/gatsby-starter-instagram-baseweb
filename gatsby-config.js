@@ -34,9 +34,7 @@ module.exports = {
         icon: config.logo, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-instagram`,
       options: {
@@ -44,13 +42,14 @@ module.exports = {
         username: config.social.instagram,
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: config.googleAnalyticsId,
-        head: true,
-      },
-    },
+    // Optional: Google Analytics Tracking
+    // {
+    //   resolve: 'gatsby-plugin-google-analytics',
+    //   options: {
+    //     trackingId: config.googleAnalyticsId,
+    //     head: true,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-styletron`,
       options: {
