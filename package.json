@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "^2.3.13",
     "gatsby-plugin-styletron": "^4.1.24",
     "gatsby-source-filesystem": "^2.1.40",
-    "gatsby-source-instagram": "^0.6.1",
+    "gatsby-source-instagram": "^0.7.0",
     "gatsby-transformer-sharp": "^2.3.13",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
