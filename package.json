@@ -8,7 +8,7 @@
     "url": "https://timrodz.com"
   },
   "dependencies": {
-    "baseui": "^9.50.0",
+    "baseui": "^9.64.1",
     "gatsby": "^2.18.12",
     "gatsby-cli": "^2.8.29",
     "gatsby-image": "^2.2.39",

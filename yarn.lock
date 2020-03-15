@@ -2081,10 +2081,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-baseui@^9.50.0:
-  version "9.57.0"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.57.0.tgz#86e131dc565685331fae6cf10b186378b33303a8"
-  integrity sha512-l+tPRVNn1mZGzRhBBMmhZJLYqMxx7TQXrNnmmYmMKD2G3GLvfGzQRaSCXX1l8EsdZ/TgkiJxuip6uUaAFZthsg==
+baseui@^9.64.1:
+  version "9.64.1"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.64.1.tgz#dc3d4a8fe7947d3885c004e1819c50bf92253df5"
+  integrity sha512-wvVHQXrI5BjLNGGd7f7uCwb/PA+H6KpM/LkbfQ32Wu3DfQvaOoVGqtBeXtSgQbsf92/JE9F3MKG0MAGr4RnX9g==
   dependencies:
     card-validator "^6.2.0"
     date-fns "^2.6.0"
@@ -2103,6 +2103,7 @@ baseui@^9.50.0:
     react-virtualized "^9.21.1"
     react-virtualized-auto-sizer "^1.0.2"
     react-window "^1.8.5"
+    resize-observer-polyfill "^1.5.1"
     timezone-support "^2.0.2"
 
 batch@0.6.1:
@@ -10208,6 +10209,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
