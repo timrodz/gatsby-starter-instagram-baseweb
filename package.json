@@ -13,7 +13,7 @@
     "gatsby-cli": "^2.8.29",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-alias-imports": "^1.0.5",
-    "gatsby-plugin-google-analytics": "^2.1.36",
+    "gatsby-plugin-google-analytics": "^2.1.38",
     "gatsby-plugin-manifest": "^2.2.31",
     "gatsby-plugin-offline": "^3.0.27",
     "gatsby-plugin-react-helmet": "^3.1.16",
